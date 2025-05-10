@@ -266,10 +266,9 @@ body{
 }
 
 .contenedor-galeria2{
-    margin-left: 520px;
-    display: block;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .img-galeria{
